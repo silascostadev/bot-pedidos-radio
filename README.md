@@ -27,21 +27,21 @@ Para rodar este projeto na sua máquina, você precisará instalar:
 ## ⚙️ Instalação e Configuração
 
 1. Clone este repositório:
-   ```bash
-   git clone [https://github.com/silascostadev/bot-pedidos-radio.git](https://github.com/silascostadev/bot-pedidos-radio.git)
-   cd bot-pedidos-radio
 
 ```
+   git clone [https://github.com/silascostadev/bot-pedidos-radio.git](https://github.com/silascostadev/bot-pedidos-radio.git)
+   cd bot-pedidos-radio
+```
 
-2. Instale as bibliotecas necessárias:
-```bash
+3. Instale as bibliotecas necessárias:
+```
 pip install selenium yt-dlp
 
 ```
 
 
 3. Abra o arquivo `bot_radio.py` e configure a variável principal com o nome exato do chat ou grupo do WhatsApp que o bot deverá monitorar:
-```python
+```
 NOME_CHAT_ALVO = "Nome do Grupo Aqui"
 
 ```
@@ -51,7 +51,7 @@ NOME_CHAT_ALVO = "Nome do Grupo Aqui"
 ## 💻 Como usar
 
 1. Execute o script no terminal:
-```bash
+```
 python bot_radio.py
 
 ```
